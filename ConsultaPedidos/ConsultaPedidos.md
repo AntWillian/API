@@ -5,14 +5,11 @@ A API de consulta de pedidos traz os pedidos de acordo com o filtro pre definido
 # Visão global
 A API por defaut tem que receber no minimo um parametro para poder realizar os filtros
 
-### Solicitação 
-```JS 
-    Get 
-```
+### Solicitação Get 
 > 201.39.92.60/api_hmg/v3/api/order?idgrupo=&idCliente=&destinatario=&endereco=&idPedido=&pedidoCliente=&notaFiscal=&codigoBarras=&dataColeta=&dataCadastro=&cpf=
 
 # Códigos de erro
-Caso nao seja informado nada a API retornara 
+Caso nao seja informado nada a API retornara (erro 400): 
 ```JS
 [  
    {  
@@ -20,7 +17,7 @@ Caso nao seja informado nada a API retornara
    }
 ]
 ```
-Campos invalidos
+Campos invalidos (erro 400): 
 ```JS
 {
     "message": "The given data was invalid.",
@@ -47,7 +44,7 @@ Campos invalidos
 }
 ```
 
-# Resposta da API
+# Resposta da API (sucesso 200): 
 
 ```JS
 [  

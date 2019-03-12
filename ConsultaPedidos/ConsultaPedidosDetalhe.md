@@ -10,8 +10,15 @@ A API recebe apenas um parametro, o id do Pedido
 
 
 ### Códigos de erro
-Caso a API nao reconheca a requisisao retorna 'erro'
+Caso a API nao reconheca a requisisao retorna 
 
+```JS
+[  
+   {  
+      "erro":"Campos vazios"
+   }
+]
+```
 
 ### Resposta
 ```JS
