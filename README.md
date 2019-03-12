@@ -1,5 +1,5 @@
 
-# Introdução (#some-markdown-heading)
+# Introdução [create an anchor](#anchors-in-markdown)  
 A API de consulta de pedidos traz os pedidos de acordo com o filtro pre definido 
 
 # Visão global
@@ -14,7 +14,7 @@ Caso nao seja informado nada a API retornara
    }
 ]
 ```
-Campos invalidos [create an anchor](#anchors-in-markdown)
+Campos invalidos (#some-markdown-heading)
 ```JS
 {
     "message": "The given data was invalid.",
