@@ -1,6 +1,6 @@
 
 # Introdução 
-API's que serão usadas no projeto d0 sistema do Redespacho 
+API's que serão usadas no projeto do sistema do Redespacho 
 * Autenticação:
     * [Login](Login/Login.md)
 
