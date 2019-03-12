@@ -8,6 +8,22 @@ A API por defaut tem que receber no minimo um parametro para poder realizar os f
 ### Solicitação Get 
 > 201.39.92.60/api_hmg/v3/api/order?idgrupo=&idCliente=&destinatario=&endereco=&idPedido=&pedidoCliente=&notaFiscal=&codigoBarras=&dataColeta=&dataCadastro=&cpf=
 
+# Parâmetros
+|Campo                  |Descricao             
+|----------------|-------------------------------|
+|idgrupo|`Grupo do cliente`|
+|idCliente|`Chave de identificacao do cliente`|
+|destinatario|`Nome do destinatario final`|
+|endereco|`Endereco de entrega do pedido`|
+|idPedido|`Chave de identificacao principal do pedido`|
+|pedidoCliente|`Chave de identificacao do pedido do cliente`|
+|notaFiscal|`numero da nota `|
+|codigoBarras|`Codigo de barras da etiqueta do cliente`|
+|dataColeta|`Data que o pedido foi coletado na loja`|
+|dataCadastro|`Data que o pedido foi cadastrado no sistema`|
+|cpf|`CPF do destinatario`|
+
+
 # Códigos de erro
 Caso nao seja informado nada a API retornara (erro 400): 
 ```JS
@@ -64,3 +80,4 @@ Campos invalidos (erro 400):
    }
 ]
 ```
+
