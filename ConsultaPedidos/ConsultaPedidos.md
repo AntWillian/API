@@ -5,6 +5,12 @@ A API de consulta de pedidos traz os pedidos de acordo com o filtro pre definido
 # Visão global
 A API por defaut tem que receber no minimo um parametro para poder realizar os filtros
 
+### Solicitação 
+```JS 
+    Get 
+```
+> 201.39.92.60/api_hmg/v3/api/order?idgrupo=&idCliente=&destinatario=&endereco=&idPedido=&pedidoCliente=&notaFiscal=&codigoBarras=&dataColeta=&dataCadastro=&cpf=
+
 # Códigos de erro
 Caso nao seja informado nada a API retornara 
 ```JS

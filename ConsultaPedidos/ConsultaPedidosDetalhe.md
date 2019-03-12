@@ -1,5 +1,3 @@
-### Solicitação Get
-> 201.39.92.60/api_hmg/v3/api/order?idPedido=100
 
 # Introdução
 A API que traz dados detalhado do pedido
@@ -7,11 +5,15 @@ A API que traz dados detalhado do pedido
 # Visão global
 A API recebe apenas um parametro, o id do Pedido
 
+### Solicitação Get
+> 201.39.92.60/api_hmg/v3/api/order?idPedido=100
 
-# Códigos de erro
+
+### Códigos de erro
 Caso a API nao reconheca a requisisao retorna 'erro'
 
-# Resposta
+
+### Resposta
 ```JS
 {  
    "pedido":{  
