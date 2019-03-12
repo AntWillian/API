@@ -4,6 +4,7 @@ A API de consulta de pedidos traz os pedidos de acordo com o filtro pre definido
 
 # Visão global
 A API por defaut tem que receber no minimo um parametro para poder realizar os filtros
+[Consulta de Pedidos](ConsultaPedidos/teste.md)
 
 # Códigos de erro
 Caso nao seja informado nada a API retornara 
