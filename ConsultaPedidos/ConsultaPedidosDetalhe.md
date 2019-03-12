@@ -9,7 +9,7 @@ A API recebe apenas um parametro, o id do Pedido
 > 201.39.92.60/api_hmg/v3/api/order?idPedido=100
 
 
-### Códigos de erro
+### Códigos de erro (erro 400)
 Caso a API nao reconheca a requisisao retorna 
 
 ```JS
@@ -20,7 +20,7 @@ Caso a API nao reconheca a requisisao retorna
 ]
 ```
 
-### Resposta
+### Resposta (sucesso 200)
 ```JS
 {  
    "pedido":{  
