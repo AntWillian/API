@@ -1,3 +1,6 @@
+### Solicitação Get
+> 201.39.92.60/api_hmg/v3/api/order?idPedido=100
+
 # Introdução
 A API que traz dados detalhado do pedido
 
