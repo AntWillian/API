@@ -1,10 +1,9 @@
 
-# Introdução 
+# Introdução
 A API de consulta de pedidos traz os pedidos de acordo com o filtro pre definido 
 
 # Visão global
 A API por defaut tem que receber no minimo um parametro para poder realizar os filtros
-[Consulta de Pedidos](ConsultaPedidos/teste.md)
 
 # Códigos de erro
 Caso nao seja informado nada a API retornara 
@@ -15,7 +14,7 @@ Caso nao seja informado nada a API retornara
    }
 ]
 ```
-Campos invalidos (#some-markdown-heading)
+Campos invalidos
 ```JS
 {
     "message": "The given data was invalid.",
