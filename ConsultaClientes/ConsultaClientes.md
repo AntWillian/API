@@ -1,13 +1,12 @@
 
 # Introdução
-Endpoint que traz todos os Grupos de clientes ativos
+Endpoint que traz todos os clientes ativos
 
 # Visão global
-So de fazer uma chamada no endpoint que será retornado todos os Grupos de clientes ativos
+So de fazer uma chamada no endpoint que será retornado todos os clientes ativos
 
 ### Solicitação Get
-> 201.39.92.60/api_hmg/v3/api/groups
-
+> 201.39.92.60/api_hmg/v3/api/clients
 
 ### Resposta (sucesso 200)
 ```JS
@@ -24,4 +23,9 @@ So de fazer uma chamada no endpoint que será retornado todos os Grupos de clien
 ]
 ```
 
+
    
+
+
+
+
