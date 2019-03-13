@@ -13,11 +13,11 @@ A API recebe apenas um parametro, o id do Pedido
 Caso a API nao reconheca a requisisao retorna 
 
 ```JS
-[  
-   {  
-      "erro":"Campos vazios"
-   }
-]
+{
+    "errors": {
+        "idPedido": "idPedido invalido"
+    }
+}
 ```
 
 ### Resposta (sucesso 200)

@@ -27,11 +27,11 @@ A API por defaut tem que receber no minimo um parametro para poder realizar os f
 # Códigos de erro
 Caso nao seja informado nada a API retornara (erro 400): 
 ```JS
-[  
-   {  
-      "erro":"Campos vazios"
-   }
-]
+{
+    "errors": {
+        "geral": "Campos vazios"
+    }
+}
 ```
 Campos invalidos (erro 400): 
 ```JS
