@@ -15,7 +15,9 @@ Caso a API nao reconheca a requisisao retorna
 ```JS
 {
     "errors": {
-        "idPedido": "idPedido invalido"
+        "idPedido": [
+            "idPedido invalido"
+        ]
     }
 }
 ```

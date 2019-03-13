@@ -29,7 +29,9 @@ Caso nao seja informado nada a API retornara (erro 400):
 ```JS
 {
     "errors": {
-        "geral": "Campos vazios"
+        "geral": [
+            "Campos vazios"
+        ]
     }
 }
 ```
