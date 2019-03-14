@@ -11,3 +11,7 @@ API's que serão usadas no projeto do sistema do Redespacho
 * Consulta Clientes:
     * [Consulta de Clientes](ConsultaClientes/ConsultaClientes.md)
     * [Consulta de Grupos](ConsultaClientes/ConsultaGrupos.md)
+
+ * Motorista:
+    * [Consulta de Motorista](ConsultaMotorista/ConsultaMotorista.md)
+    * [Cadastro de Motorista](ConsultaMotorista/CadastroMotorista.md)
