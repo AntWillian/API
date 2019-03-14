@@ -17,17 +17,17 @@ A API que cadastra novos motoristas
 |cidade|Nome da cidade|String|required
 |uf|Sigla do estado|String|required
 |situacao|0 = Inativo<br>1 = Ativo|Int|required|
-|cnh|numero da carteira de motorista|Numeric|required
-|cnhVencto|data de vencimento cnh|Date|required
-|tipoPessoa|F=fisica <br> J=juridico|String|required
+|cnh|numero da carteira de motorista|Numeric
+|cnhVencto|data de vencimento cnh|Date
+|tipoPessoa|F=fisica <br> J=juridico|String
 |email|E-mail de contato|String
-|dtNasc|Data de nascimento|Date|required
+|dtNasc|Data de nascimento|Date
 |razaoSocial|Nome da razao social|String
-|cpf|Numero do cpf|Numeric
-|rg|Numero do rg|Numeric|required
+|cpf|Numero do cpf|Numeric|required|
+|rg|Numero do rg|Numeric
 |cnpj|Numero do cnpj|Numeric
-|IE|Numero da inscrição estadual|Numeric|required
-|pis|Numero do pis|Numeric|required
+|IE|Numero da inscrição estadual|Numeric
+|pis|Numero do pis|Numeric
 |complemento|Complemento do endereco|String
 |celular|Numero de celular|Numeric
 |fone|Telefone fixo|Numeric
@@ -80,18 +80,15 @@ Campos invalidos (erro 400)
             "O campo situacao é requerido!"
         ],
         "cnh": [
-            "O campo cnh é requerido!",
             "O campo cnh Tem que ser Numerico!"
         ],
         "cnhVencto": [
-            "O campo cnhVencto é requerido!",
             "O campo cnhVencto tem que ser do tipo Data DD/MM/YYYY"
         ],
         "tipoPessoa": [
             "O campo tipoPessoa é requerido!"
         ],
         "dtNasc": [
-            "O campo dtNasc é requerido!",
             "O campo dtNasc tem que ser do tipo Data DD/MM/YYYY"
         ],
         "rg": [
@@ -99,11 +96,9 @@ Campos invalidos (erro 400)
             "O campo rg Tem que ser Numerico!"
         ],
         "IE": [
-            "O campo IE é requerido!",
             "O campo IE Tem que ser Numerico!"
         ],
         "PIS": [
-            "O PIS é requerido!",
             "O campo PIS Tem que ser Numerico!"
         ],
         "email": [
@@ -125,6 +120,7 @@ Campos invalidos (erro 400)
             "O campo grisVencto tem que ser do tipo Data DD/MM/YYYY"
         ],
         "cpf": [
+            "O campo cpf é requerido!",
             "O campo cpf Tem que ser Numerico!"
         ],
         "cnpj": [
@@ -134,16 +130,6 @@ Campos invalidos (erro 400)
 }
 ```
 
-Validacao de CPF  (erro 400)
-```JS
-{
-    "errors": {
-        "cpf": [
-            "CPF invalido"
-        ]
-    }
-}
-```
 
 Validacao de CPF  (erro 400)
 ```JS
@@ -161,18 +147,6 @@ Validacao de CPF  (erro 400)
     "errors": {
         "erro": [
             "Cpf já cadastrado"
-        ]
-    }
-}
-```
-
-
-Erros não inesperados (erro 500)
-```JS
-{
-    "errors": {
-        "erro": [
-            "Erro no servidor"
         ]
     }
 }
@@ -217,6 +191,17 @@ Sucesso (200)
     "sucesso": {
         "sucesso": [
             "Motorista cadastrado"
+        ]
+    }
+}
+```
+
+erro (500)
+```JS
+{
+    "errors": {
+        "erro": [
+            "Erro no servidor"
         ]
     }
 }
