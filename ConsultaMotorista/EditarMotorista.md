@@ -1,14 +1,14 @@
 # Introdução
 A API que cadastra novos motoristas
 
+### Solicitação  Put
 
-### Solicitação Post
-
-> 201.39.92.60/api_hmg/v3/api/driver/new
+> 201.39.92.60/api_hmg/v3/api/driver/update
 
 ## Parâmetros
 |Campo                    |Descricao| Tipo|  Requeridos            
 |----------------|----------------|----------------|----------------|
+|idMotorista|Chave identificadora do motorista|Int|required
 |nome|Nome do motorista|String|required
 |cep|Numero do cep|Int|required
 |endereco|Nome da rua|String|required
@@ -39,6 +39,16 @@ A API que cadastra novos motoristas
 
 
 ### Códigos de erro 
+idMotorista invalido ou nao informado (erro 400)
+```JS
+{
+    "errors": {
+        "idMotorista": [
+            "Id invalido"
+        ]
+    }
+}
+```
 
 Campos invalidos (erro 400)
 ```JS
@@ -80,15 +90,18 @@ Campos invalidos (erro 400)
             "O campo situacao é requerido!"
         ],
         "cnh": [
+            "O campo cnh é requerido!",
             "O campo cnh Tem que ser Numerico!"
         ],
         "cnhVencto": [
+            "O campo cnhVencto é requerido!",
             "O campo cnhVencto tem que ser do tipo Data DD/MM/YYYY"
         ],
         "tipoPessoa": [
             "O campo tipoPessoa é requerido!"
         ],
         "dtNasc": [
+            "O campo dtNasc é requerido!",
             "O campo dtNasc tem que ser do tipo Data DD/MM/YYYY"
         ],
         "rg": [
@@ -96,9 +109,11 @@ Campos invalidos (erro 400)
             "O campo rg Tem que ser Numerico!"
         ],
         "IE": [
+            "O campo IE é requerido!",
             "O campo IE Tem que ser Numerico!"
         ],
         "PIS": [
+            "O PIS é requerido!",
             "O campo PIS Tem que ser Numerico!"
         ],
         "email": [
@@ -120,7 +135,6 @@ Campos invalidos (erro 400)
             "O campo grisVencto tem que ser do tipo Data DD/MM/YYYY"
         ],
         "cpf": [
-            "O campo cpf é requerido!",
             "O campo cpf Tem que ser Numerico!"
         ],
         "cnpj": [
@@ -130,6 +144,16 @@ Campos invalidos (erro 400)
 }
 ```
 
+Validacao de CPF  (erro 400)
+```JS
+{
+    "errors": {
+        "cpf": [
+            "CPF invalido"
+        ]
+    }
+}
+```
 
 Validacao de CPF  (erro 400)
 ```JS
@@ -147,6 +171,18 @@ Validacao de CPF  (erro 400)
     "errors": {
         "erro": [
             "Cpf já cadastrado"
+        ]
+    }
+}
+```
+
+
+Erros não inesperados (erro 500)
+```JS
+{
+    "errors": {
+        "erro": [
+            "Erro no servidor"
         ]
     }
 }
@@ -172,7 +208,7 @@ Validacao de CNPJ(erro 400)
     }
 }
 ```
-Erro (erro 400)
+Erros inesperados (erro 500)
 ```JS
 {
     "errors": {
@@ -190,18 +226,7 @@ Sucesso (200)
 {
     "sucesso": {
         "sucesso": [
-            "Motorista cadastrado"
-        ]
-    }
-}
-```
-
-erro (500)
-```JS
-{
-    "errors": {
-        "erro": [
-            "Erro no servidor"
+            "Motorista editado"
         ]
     }
 }
