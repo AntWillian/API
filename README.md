@@ -16,3 +16,6 @@ API's que serão usadas no projeto do sistema do Redespacho
     * [Consulta de Motorista](ConsultaMotorista/ConsultaMotorista.md)
     * [Cadastro de Motorista](ConsultaMotorista/CadastroMotorista.md)
     * [Edição de Motorista](ConsultaMotorista/EditarMotorista.md)
+    * [Consulta de Setor Motorista](ConsultaSetores/ConsultaSetorMotorista.md)
+    * [Consulta de Motorista](ConsultaMotorista/CadastroMotoristaId.md)
+    * [Cadastro de Setor](ConsultaSetores/CadastrarSetor.md)
