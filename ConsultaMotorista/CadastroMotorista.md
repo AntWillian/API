@@ -125,6 +125,17 @@ Campos invalidos (erro 400)
         ],
         "cnpj": [
             "O campo cnpj Tem que ser Numerico!"
+        ],
+        "login": [
+            "O campo login é requerido!",
+            "O campo login deve ter pelo menos 3 caracteres!",
+            "O campo login deve ter no maximo 30 caracteres!"
+            
+        ],
+        "senha": [
+            "O campo senha é requerido!",
+            "O campo senha deve ter pelo menos 3 caracteres!",
+            "O campo senha deve ter no maximo 8 caracteres!"
         ]
     }
 }
