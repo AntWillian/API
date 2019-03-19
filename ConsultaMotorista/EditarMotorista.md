@@ -1,5 +1,5 @@
 # Introdução
-A API que cadastra novos motoristas
+A API usada para editar motoristas
 
 ### Solicitação  Put
 
