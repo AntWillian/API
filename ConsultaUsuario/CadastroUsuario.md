@@ -16,7 +16,7 @@ A API que cadastra novos usuarios
 |Campo |Descricao| Tipo| Requeridos
 |----------------|----------------|----------------|----------------|
 |nome|Nome do Usuario|String|required
-|cep|Numero do cep|Int|required
+|cep|Numero do cep|Numeric|required
 |endereco|Nome da rua|String|required
 |numero|Numero da casa | String|required
 |bairro|Nome do bairro|String|required
