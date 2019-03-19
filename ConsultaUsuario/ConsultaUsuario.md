@@ -10,7 +10,7 @@ A API usada para consultar usuarios
 ## Parâmetros
 
 |Campo |Descricao| Tipo
-|----------------|----------------|----------------|----------------|
+|----------------|----------------|----------------
 |NomePessoa|Nome do Usuario|String|
 |situacao|0 = Inativo<br>1 = Ativo <br> 2 = Todos|Numeric|
 
