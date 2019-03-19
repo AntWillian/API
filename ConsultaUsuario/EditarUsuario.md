@@ -3,7 +3,7 @@
 
 A API usada para editar usuarios
 
-### Solicitação Post
+### Solicitação Put
 > 201.39.92.60/api_hmg/v3/api/person/update
 
   
