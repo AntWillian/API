@@ -10,7 +10,7 @@ A API usada para consultar usuarios por id
 ## Parâmetros
 
 |Campo |Descricao| Tipo
-|----------------|----------------|----------------|----------------|
+|----------------|----------------|----------------
 |idPessoa|Chave identificadora do usuario|Numeric
 
 ### Códigos de erro
