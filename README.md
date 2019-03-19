@@ -21,7 +21,7 @@ API's que serão usadas no projeto do sistema do Redespacho
     * [Cadastro de Setor](ConsultaSetores/CadastrarSetor.md)
 
 * Usuario:
-    * [Consulta de Usuario](ConsultaUsuario/ConsultarUsuario.md)
+    * [Consulta de Usuario](ConsultaUsuario/ConsultaUsuario.md)
     * [Cadastro de Usuario](ConsultaUsuario/CadastroUsuario.md)
     * [Edição de Usuario](ConsultaUsuario/EditarUsuario.md)
     * [Consulta de Usuario por id](ConsultaUsuario/ConsultarUsuarioId.md)
