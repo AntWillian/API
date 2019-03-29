@@ -26,3 +26,13 @@ API's que serão usadas no projeto do sistema do Redespacho
     * [Edição de Usuario](ConsultaUsuario/EditarUsuario.md)
     * [Consulta de Usuario por id](ConsultaUsuario/ConsultarUsuarioId.md)
     * [Consulta de Grupo](ConsultaUsuario/ConsultaGrupos.md)
+
+* Viagem:
+    * [Consulta de Viagem](ConsultaViagem/ConsultarViagem.md)
+    * [Cadastro de Viagem](ConsultaViagem/CadastrarViagem.md)
+    * [Adiciolnar Volume](ConsultaViagem/AdicionarVolume.md)
+    * [Remover Volume](ConsultaViagem/RemoverVolume.md)
+    * [Salvar Viagem](ConsultaViagem/RoteirizarViagem.md)
+    * [Iniciar Viagem](ConsultaViagem/IniciarViagem.md)
+    <!-- * [Edição de Viagem](ConsultaUsuario/EditarUsuario.md) -->
+    <!-- * [Consulta de Viagem por id](ConsultaUsuario/ConsultarUsuarioId.md) -->

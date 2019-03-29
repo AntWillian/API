@@ -1,10 +1,10 @@
 
 # Introdução
-A API para criar novas viagens
+A API para salvar viagens
 
 
 ### Solicitação Post
-> 201.39.92.60/api_hmg/v3/api/trip/new
+> 201.39.92.60/api_hmg/v3/api/trip/saveTrip
 
 ## Parâmetros
 |Campo                    |Descricao| Tipo|  Requeridos            
