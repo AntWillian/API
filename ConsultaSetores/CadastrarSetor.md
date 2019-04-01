@@ -15,13 +15,10 @@ A API que cadastra os setores para motoristas, mesma serve para realizar ediçõ
 
 ### Códigos de erro 
 
-```JS
-
-```
-
 Erro de cadastro  (erro 500)
 ```JS
 {
+    "status": "erro",
     "errors": {
         "sintaxe": [
             "erro de sintaxe"
@@ -35,6 +32,7 @@ Erro de cadastro  (erro 500)
 Sucesso (200)
 ```JS
 {
+    "status": "ok",
     "sucesso": {
         "sucesso": [
             "Setores cadastrados"
