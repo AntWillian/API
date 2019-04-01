@@ -3,7 +3,7 @@ A API para consultar motoristas
 
 ### Solicitação  Get
 
-> 201.39.92.60/api_hmg/v3/api/driver/searchId
+> 201.39.92.60/api_hmg/v3/api/driver/searchId/{idMotorista}
 
 ## Parâmetros
 |Campo                    |Descricao| Tipo|  Requeridos            
@@ -17,9 +17,10 @@ A API para consultar motoristas
 id não informado ou invalido (erro 400)
 ```JS
 {
+	"status": "erro"
     "errors": {
-        "erro": [
-            "Id invalido"
+        "idMotorista": [
+            "ID invalido"
         ]
     }
 }
@@ -59,7 +60,6 @@ id não informado ou invalido (erro 400)
 
 Sucesso (200)
 ```JS
-[  
 	{  
 		"idPessoa":4488,  
 		"Login":"fulano.bertano",  
@@ -110,6 +110,5 @@ Sucesso (200)
 		"dtNascimento":"2020-10-12",  
 		"PIS":"888888888888"  
 	}  
-]
 ```
 
