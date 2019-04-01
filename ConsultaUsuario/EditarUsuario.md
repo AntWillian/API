@@ -42,6 +42,7 @@ A API usada para editar usuarios
 ```JS
 
 {
+	"status": "erro",
 	"errors": {
 		"idPessoa ": [
 			"idPessoa não informado"
@@ -153,6 +154,7 @@ Validacao de CPF (erro 400)
 ```JS
 
 {
+	"status": "erro",
 	"errors": {
 		"cpf": [
 			"CPF invalido"
@@ -167,8 +169,9 @@ Validacao de CPF (erro 400)
 ```JS
 
 {
+	"status": "erro",
 	"errors": {
-		"erro": [
+		"cpf": [
 			"Cpf já cadastrado"
 		]
 	}
@@ -185,6 +188,7 @@ Sucesso (200)
 ```JS
 
 {
+	"status": "ok",
 	"sucesso": {
 		"sucesso": [
 			"Usuario editado"
@@ -201,6 +205,7 @@ erro (500)
 ```JS
 
 {
+	"status": "erro",
 	"errors": {
 		"erro": [
 			"Erro no servidor"
