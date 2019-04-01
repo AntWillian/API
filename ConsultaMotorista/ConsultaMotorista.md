@@ -24,7 +24,7 @@ Caso não seja informado nenhum parametro na requisção (erro 400)
 ```JS
 {
     "errors": {
-        "geral": [
+        "erro": [
             "campos vazios"
         ]
     }
