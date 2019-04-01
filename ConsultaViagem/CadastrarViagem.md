@@ -75,54 +75,24 @@ Erros de sintaxe (erro 500)
 
 ## Resposta
 
-caso o parâmetro `ignorarViagens` não seja informado a Api retorna as viagem que o motorista tem para a data informada
+caso o parâmetro `ignorarViagens` não seja informado a Api retorna as viagem que o motorista tem para a data informada, caso nao possua nenhuma viagem ele cadastra a viagem.
 ```JS
-[
-    {
-        "idViagem": 33,
-        "NomeViagem": "VGN_SAO PAULO_001",
-        "idPlan": 0,
-        "dtViagem": "2019-03-30",
-        "idTipoOperacao": 1,
-        "TipoViagem": "A",
-        "OrdemViagem": 1,
-        "idBase": 2,
-        "idSetor": 0,
-        "idMotorista": 2531,
-        "QtdeMinima": 1,
-        "QtdeMaxima": 50,
-        "ValorMaximo": 10000,
-        "QtdePrev": 0,
-        "QtdeViagem": 0,
-        "MotConfPres": "S",
-        "hrPrevInicio": "2019-03-30 08:00:00",
-        "hrPrevFim": "2019-03-30 18:00:00",
-        "dtIniRoteirizacao": null,
-        "dtFimRoteirizacao": null,
-        "psRoteirizacao": null,
-        "dtIniConfDespacho": "2019-03-26 15:49:12",
-        "dtFimConfDespacho": null,
-        "psConfDespacho": 2520,
-        "hrIniViagem": "2019-03-27 11:02:11",
-        "hrFimViagem": "2019-03-27 11:02:11",
-        "psIniViagem": null,
-        "Obs": "",
-        "ConfSep_Obrigatoria": "N",
-        "ConfSep_Realizada": "N",
-        "BolaPreta": "N",
-        "Filtrada": "N",
-        "idStatusProcesso": 670,
-        "Situacao": "VIAGEM INICIADA",
-        "idPessoa": 2520,
-        "dtEmissao": "2019-03-26 11:17:10",
-        "dtImpRomaneio": null,
-        "dtFimConfViagem": null,
-        "psConfViagem": null,
-        "psALT": null,
-        "dtALT": null
-    },
-    ...
-]
+{
+    "status": "warning",
+    "viagens": [
+        {
+            "idViagem": 38,
+            "NomeViagem": "VGN_VL_AZEVEDO_002",
+            "dtViagem": "2019-04-01",
+            "idBase": 2,
+            "Base": "SAO PAULO",
+            "idSetor": 30,
+            "Setor": "VL AZEVEDO",
+            "Motorista": "ALEXSANDER MONTEIRO DA SILVA",
+            "Situacao": "INICIADA"
+        }
+    ]
+}
 ```
 
 caso o parâmetro `ignorarViagens` seja informado a Api cadastra uma nova viagem para o motorista
