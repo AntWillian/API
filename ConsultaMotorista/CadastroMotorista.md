@@ -40,7 +40,7 @@ A API que cadastra novos motoristas
 
 ### Códigos de erro 
 
-Campos invalidos (erro 400)
+Campos invalidos (erro 422)
 ```JS
 {
     "message": "The given data was invalid.",
@@ -145,6 +145,7 @@ Campos invalidos (erro 400)
 Validacao de CPF  (erro 400)
 ```JS
 {
+	"status": "erro",			
     "errors": {
         "cpf": [
             "CPF invalido"
@@ -155,8 +156,9 @@ Validacao de CPF  (erro 400)
 
 ```JS
 {
+	"status": "erro",
     "errors": {
-        "erro": [
+        "cpf": [
             "Cpf já cadastrado"
         ]
     }
@@ -166,6 +168,7 @@ Validacao de CPF  (erro 400)
 Validacao de CNPJ(erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "cnpj": [
             "CNPJ invalido"
@@ -176,6 +179,7 @@ Validacao de CNPJ(erro 400)
 
 ```JS
 {
+	"status": "erro",
     "errors": {
         "cnpj": [
             "CNPJ invalido"
@@ -186,8 +190,9 @@ Validacao de CNPJ(erro 400)
 Erro (erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
-        "geral": [
+        "erro": [
             "preencher CPF ou CNPJ"
         ]
     }
@@ -199,6 +204,7 @@ Erro (erro 400)
 Sucesso (200)
 ```JS
 {
+	"status": "ok",
     "sucesso": {
         "sucesso": [
             "Motorista cadastrado"
@@ -210,6 +216,7 @@ Sucesso (200)
 erro (500)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "erro": [
             "Erro no servidor"
