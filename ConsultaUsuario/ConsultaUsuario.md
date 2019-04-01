@@ -25,8 +25,9 @@ A API usada para consultar usuarios
 ```JS
 
 {
+	"status": "erro",
     "errors": {
-        "geral": [
+        "erro": [
             "campos vazios"
         ]
     }
@@ -37,6 +38,7 @@ erros inesperados (erro 500)
 ```JS
 
 {
+	"status": "erro",
     "errors": {
         "erro": [
             "Erro no servidor"
