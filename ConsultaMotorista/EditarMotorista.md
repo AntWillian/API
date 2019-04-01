@@ -42,6 +42,7 @@ A API usada para editar motoristas
 idMotorista invalido ou nao informado (erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "idMotorista": [
             "Id invalido"
@@ -158,6 +159,7 @@ Validacao de CPF  (erro 400)
 Validacao de CPF  (erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "cpf": [
             "CPF invalido"
@@ -168,8 +170,9 @@ Validacao de CPF  (erro 400)
 
 ```JS
 {
+	"status": "erro",
     "errors": {
-        "erro": [
+        "cpf": [
             "Cpf já cadastrado"
         ]
     }
@@ -180,6 +183,7 @@ Validacao de CPF  (erro 400)
 Erros não inesperados (erro 500)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "erro": [
             "Erro no servidor"
@@ -191,6 +195,7 @@ Erros não inesperados (erro 500)
 Validacao de CNPJ(erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "cnpj": [
             "CNPJ invalido"
@@ -201,6 +206,7 @@ Validacao de CNPJ(erro 400)
 
 ```JS
 {
+	"status": "erro",
     "errors": {
         "cnpj": [
             "CNPJ invalido"
@@ -211,8 +217,9 @@ Validacao de CNPJ(erro 400)
 Erros inesperados (erro 500)
 ```JS
 {
+	"status": "erro",
     "errors": {
-        "geral": [
+        "documento": [
             "preencher CPF ou CNPJ"
         ]
     }
@@ -224,6 +231,7 @@ Erros inesperados (erro 500)
 Sucesso (200)
 ```JS
 {
+	"status": "ok",
     "sucesso": {
         "sucesso": [
             "Motorista editado"
