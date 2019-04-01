@@ -30,7 +30,7 @@ Caso nao seja informado nada a API retornara (erro 400):
 {
     "status": "erro",
     "errors": {
-        "geral": [
+        "erro": [
             "Campos vazios"
         ]
     }
