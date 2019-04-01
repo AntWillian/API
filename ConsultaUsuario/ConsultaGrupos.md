@@ -14,6 +14,7 @@ erros inesperados (erro 500)
 ```JS
 
 {
+    "status": "erro",
     "errors": {
         "erro": [
             "Erro no servidor"
