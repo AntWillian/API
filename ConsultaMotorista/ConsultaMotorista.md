@@ -23,6 +23,7 @@ A API recebe parametros e atraves deles filtra os motorista
 Caso não seja informado nenhum parametro na requisção (erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "erro": [
             "campos vazios"
@@ -34,6 +35,7 @@ Caso não seja informado nenhum parametro na requisção (erro 400)
 Caso o parametro `Placa`  seja informado mas não possua cadastro  (erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "placa": [
             "Placa não cadastrada"
@@ -45,6 +47,7 @@ Caso o parametro `Placa`  seja informado mas não possua cadastro  (erro 400)
 Erros não inesperados (erro 500)
 ```JS
 {
+	"status": "erro",
     "errors": {
         "erro": [
             "Erro no servidor"
