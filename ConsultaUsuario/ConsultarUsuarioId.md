@@ -4,7 +4,7 @@
 A API usada para consultar usuarios por id
 
 ### Solicitação Get
-> 201.39.92.60/api_hmg/v3/api/searchId?idPessoa=
+> 201.39.92.60/api_hmg/v3/api/searchId/{idPessoa}
   
 
 ## Parâmetros
@@ -20,6 +20,7 @@ A API usada para consultar usuarios por id
 ```JS
 
 {
+    "status": "erro",
     "errors": {
         "idPessoa": [
             "idPessoa invalido"
@@ -31,6 +32,7 @@ erros inesperados (erro 500)
 ```JS
 
 {
+    "status": "erro",
     "errors": {
         "erro": [
             "Erro no servidor"
@@ -48,7 +50,7 @@ Sucesso (200)
 
 ```JS
 
-[
+
     {
         "idPessoa": 436,
         "Login": "DENIS.SOUZA",
@@ -69,7 +71,6 @@ Sucesso (200)
         "idGrupoAcesso": 6,
         "dtNascimento": null
     }
-]
 
 ```
 
