@@ -17,9 +17,10 @@ A API para consultar setores por motoristas
 id não informado ou invalido (erro 400)
 ```JS
 {
+	"status": "erro",
     "errors": {
-        "erro": [
-            "Id invalido"
+        "idMotorista": [
+            "ID invalido"
         ]
     }
 }
