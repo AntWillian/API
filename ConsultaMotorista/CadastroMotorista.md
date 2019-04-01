@@ -192,7 +192,7 @@ Erro (erro 400)
 {
 	"status": "erro",
     "errors": {
-        "erro": [
+        "documento": [
             "preencher CPF ou CNPJ"
         ]
     }
