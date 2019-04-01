@@ -143,6 +143,7 @@ Validacao de CPF (erro 400)
 ```JS
 
 {
+	"status": "erro",
 	"errors": {
 		"cpf": [
 			"CPF invalido"
@@ -157,9 +158,10 @@ Validacao de CPF (erro 400)
 ```JS
 
 {
+	"status": "erro",
 	"errors": {
-		"erro": [
-			"Cpf já cadastrado"
+		"cpf": [
+			"CPF já cadastrado"
 		]
 	}
 }
@@ -175,6 +177,7 @@ Sucesso (200)
 ```JS
 
 {
+	"status": "ok",
 	"sucesso": {
 		"sucesso": [
 			"Usuario cadastrado"
@@ -191,6 +194,7 @@ erro (500)
 ```JS
 
 {
+	"status": "erro",
 	"errors": {
 		"erro": [
 			"Erro no servidor"
