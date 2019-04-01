@@ -6,11 +6,11 @@ A API que traz dados detalhado do pedido
 A API recebe apenas um parametro, o id do Pedido
 
 ### Solicitação Get
-> 201.39.92.60/api_hmg/v3/api/order?idPedido=100
+> 201.39.92.60/api_hmg/v3/api/order/{idPedido}
 
 
 ### Códigos de erro (erro 400)
-Caso a API nao reconheca a requisisao retorna 
+Caso a API nao reconheca a requisição retorna 
 
 ```JS
 {
