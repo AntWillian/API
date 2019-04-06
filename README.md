@@ -44,3 +44,5 @@ API's que serão usadas no projeto do sistema do Redespacho
     * [Reabrir ticket](ConsultaTicket/ReabrirTicket.md)
     * [Consultar categorias](ConsultaTicket/ConsultarCategorias.md)
     * [Consultar Criticidade](ConsultaTicket/ConsultarCriticidade.md)
+    * [Consultar Ticket](ConsultaTicket/ConsultarTickets.md)
+    * [Consultar Ticket id](ConsultaTicket/ConsultarTicketsId.md)
