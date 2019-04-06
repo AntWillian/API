@@ -3,7 +3,7 @@
 A API para selecionar todos os ticket
 
 
-### Solicitação Post
+### Solicitação GET
 > 201.39.92.60/api_hmg/v3/api/ticket/selectAll
 
 
