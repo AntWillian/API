@@ -3,7 +3,7 @@
 A API para criticidades de ticket
 
 
-### Solicitação Post
+### Solicitação GET
 > 201.39.92.60/api_hmg/v3/api/ticket/criticality
 
 
