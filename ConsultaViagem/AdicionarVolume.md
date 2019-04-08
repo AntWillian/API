@@ -276,6 +276,12 @@ Erro de sintaxe (erro 500)
         "volume": [
             "Volume adicionado com sucesso!"
         ]
+    },
+    "volumeAdicionado": {
+        "idPedido": 410,
+        "Cliente": "VIA VAREJO",
+        "Destinatario": "JOSE CARLOS FARIA RODRIGUES",
+        "nrVolume": 1
     }
 }
 ```

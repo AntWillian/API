@@ -140,6 +140,12 @@ Erro ao pesquisar dados da viagem (erro 500)
         "volume": [
             "Volume removido com sucesso!"
         ]
+    },
+    "volumeRemovido": {
+        "idPedido": 410,
+        "Cliente": "VIA VAREJO",
+        "Destinatario": "JOSE CARLOS FARIA RODRIGUES",
+        "nrVolume": 1
     }
 }
 ```
