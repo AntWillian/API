@@ -30,7 +30,7 @@ Erros de sintaxe ou inesperados (erro 500)
 }
 ```
 
-Viagem não encontrada (erro 400)
+Viagem não pode ser cancelada (erro 400)
 ```JS
 {
     "status": "erro",
