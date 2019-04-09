@@ -51,3 +51,4 @@ API's que serão usadas no projeto do sistema do Redespacho
 
 * Outros:
     * [Consultar Cep](Outros/ConsultarCep.md)
+    * [Consultar Setores](Outros/ConsultarSetores.md)
