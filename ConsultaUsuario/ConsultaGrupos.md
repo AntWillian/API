@@ -4,7 +4,7 @@
 A API usada para consultar grupos de acesso
 
 ### Solicitação Get
-> 201.39.92.60/api_hmg/v3/api/group
+> 201.39.92.60/api_hmg/v3/api/person/group
   
 
 ### Códigos de erro
